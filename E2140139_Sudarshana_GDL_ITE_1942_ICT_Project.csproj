@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFC55E16-D947-4E3A-8ECC-EA27F6C43474}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>E2140139_Sudarshana_GDL_ITE_1942_ICT_Project</RootNamespace>
+    <AssemblyName>E2140139_Sudarshana_GDL_ITE_1942_ICT_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrandNewCarsInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrandNewCarsInventory.Designer.cs">
+      <DependentUpon>BrandNewCarsInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonClick.cs" />
+    <Compile Include="CarsNBR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarsNBR.Designer.cs">
+      <DependentUpon>CarsNBR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car_Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car_Inventory.Designer.cs">
+      <DependentUpon>Car_Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerRegistration.Designer.cs">
+      <DependentUpon>CustomerRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustRegForCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustRegForCashier.Designer.cs">
+      <DependentUpon>CustRegForCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoad.Designer.cs">
+      <DependentUpon>DashBoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeRegistration.Designer.cs">
+      <DependentUpon>EmployeeRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoBack.cs" />
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogStaffReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogStaffReg.Designer.cs">
+      <DependentUpon>LogStaffReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesForCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesForCashier.Designer.cs">
+      <DependentUpon>SalesForCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoldCarDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoldCarDetails.Designer.cs">
+      <DependentUpon>SoldCarDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuppliersRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppliersRegistration.Designer.cs">
+      <DependentUpon>SuppliersRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsedCarInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsedCarInventory.Designer.cs">
+      <DependentUpon>UsedCarInventory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BrandNewCarsInventory.resx">
+      <DependentUpon>BrandNewCarsInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarsNBR.resx">
+      <DependentUpon>CarsNBR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car_Inventory.resx">
+      <DependentUpon>Car_Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerRegistration.resx">
+      <DependentUpon>CustomerRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustRegForCashier.resx">
+      <DependentUpon>CustRegForCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoad.resx">
+      <DependentUpon>DashBoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeRegistration.resx">
+      <DependentUpon>EmployeeRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogStaffReg.resx">
+      <DependentUpon>LogStaffReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesForCashier.resx">
+      <DependentUpon>SalesForCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoldCarDetails.resx">
+      <DependentUpon>SoldCarDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuppliersRegistration.resx">
+      <DependentUpon>SuppliersRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsedCarInventory.resx">
+      <DependentUpon>UsedCarInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DiloAuto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\303-3031180_car-icons-suv-auto-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DiloAuto1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3741756-bussiness-ecommerce-marketplace-onlinestore-store-user_108907.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fd9968106c11325a22abb735a741b7c1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\956969895c373bd435ccaf2c2e1de4f2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\956969895c373bd435ccaf2c2e1de4f21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\956969895c373bd435ccaf2c2e1de4f22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3741756-bussiness-ecommerce-marketplace-onlinestore-store-user_1089071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-car-icon-png-image_1834527.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suppliers-icon-isolated-white-background-your-web-mobile-app-design-133862868.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector60-7912-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-preparation-disposition-preparation-232814432.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1186939191-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\217-2171513_new-vehicle-icon-new-car-icon-hd-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\used-car-icon-dealership-business-design-190501557.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DiloAuto2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WijerathneAuto.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WijerathneAuto_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>WijerathneAuto.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
